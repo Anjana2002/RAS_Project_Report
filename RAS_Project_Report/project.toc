@@ -1,0 +1,48 @@
+\contentsline {chapter}{List of Figures}{v}%
+\contentsline {chapter}{List of Tables}{vi}%
+\contentsline {chapter}{\numberline {1}INTRODUCTION}{1}%
+\contentsline {section}{\numberline {1.1}Overview}{1}%
+\contentsline {subsection}{\numberline {1.1.1}Modules}{1}%
+\contentsline {subsection}{\numberline {1.1.2}Use Case Diagrams}{1}%
+\contentsline {section}{\numberline {1.2}Feasibility Study}{3}%
+\contentsline {subsection}{\numberline {1.2.1}Technical Feasibility}{3}%
+\contentsline {subsection}{\numberline {1.2.2}Economical Feasibility}{3}%
+\contentsline {subsection}{\numberline {1.2.3}Behavioural Feasibility}{4}%
+\contentsline {chapter}{\numberline {2}RELATED WORKS}{5}%
+\contentsline {section}{\numberline {2.1}System Analysis}{5}%
+\contentsline {subsection}{\numberline {2.1.1}Existing System}{5}%
+\contentsline {subsection}{\numberline {2.1.2}Proposed System}{5}%
+\contentsline {section}{\numberline {2.2}Requirement Elicitation and Analysis}{6}%
+\contentsline {subsection}{\numberline {2.2.1}Requirement Gathering}{6}%
+\contentsline {chapter}{\numberline {3}METHODOLOGY}{8}%
+\contentsline {section}{\numberline {3.1}System Development}{8}%
+\contentsline {section}{\numberline {3.2}Database Design and Data Integration}{8}%
+\contentsline {section}{\numberline {3.3}User Feedback}{8}%
+\contentsline {section}{\numberline {3.4}Framework and Tool Selection}{9}%
+\contentsline {chapter}{\numberline {4}DESIGN and IMPLEMENTATION}{10}%
+\contentsline {section}{\numberline {4.1}Architecture}{10}%
+\contentsline {subsection}{\numberline {4.1.1}Data Flow Diagram}{10}%
+\contentsline {subsection}{\numberline {4.1.2}ER Diagram}{10}%
+\contentsline {subsection}{\numberline {4.1.3}Database Design}{12}%
+\contentsline {section}{\numberline {4.2}Implementation}{15}%
+\contentsline {chapter}{\numberline {5}TESTING}{16}%
+\contentsline {section}{\numberline {5.1}Testing Strategy}{16}%
+\contentsline {subsection}{\numberline {5.1.1}System Testing}{16}%
+\contentsline {subsection}{\numberline {5.1.2}Unit Testing}{16}%
+\contentsline {subsection}{\numberline {5.1.3}Integration Testing}{16}%
+\contentsline {section}{\numberline {5.2}Test Cases}{16}%
+\contentsline {subsection}{\numberline {5.2.1}Mark Upload Testing}{16}%
+\contentsline {subsection}{\numberline {5.2.2}Department Top Analysis Testing}{17}%
+\contentsline {subsection}{\numberline {5.2.3} Student wise Analysis Testing}{17}%
+\contentsline {subsection}{\numberline {5.2.4}Semester-wise Analysis Testing}{17}%
+\contentsline {subsection}{\numberline {5.2.5}Single Subject Analysis Testing}{17}%
+\contentsline {subsection}{\numberline {5.2.6} Advanced Search Testing}{17}%
+\contentsline {chapter}{\numberline {6}RESULTS AND DISCUSSION}{19}%
+\contentsline {section}{\numberline {6.1}Results}{19}%
+\contentsline {subsection}{\numberline {6.1.1}Uploading result of students}{19}%
+\contentsline {subsection}{\numberline {6.1.2}Different types of analysis}{19}%
+\contentsline {section}{\numberline {6.2}Discussion}{19}%
+\contentsline {chapter}{\numberline {7}CONTRIBUTIONS}{23}%
+\contentsline {chapter}{\numberline {8}CONCLUSION}{25}%
+\contentsline {chapter}{Appendices}{27}%
+\contentsline {chapter}{\numberline {A}Sample Code}{28}%
