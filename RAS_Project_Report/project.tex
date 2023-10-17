@@ -93,10 +93,10 @@ Moreover, the system provides an advanced search feature for enhanced accessibil
 
 
 \subsection{Use Case Diagrams}
-	Administrators are responsible for adding teachers, setting their passwords, and adding new courses(Figure\ref{usecase1}) . Currently, the addition of students is not within the system, as it is handled by the SMS (Student Management System) of your college. Teachers are responsible for uploading the results of students, and both teachers and the principal can view different result analyses.(Figure\ref{usecase2})
+	Administrators are responsible for adding teachers, setting their passwords, and adding new courses(Figure\ref{usecase1}). Currently, the addition of students is not within the system, as it is handled by the SMS (Student Management System) of your college. Teachers are responsible for uploading the results of students, and both teachers and the principal can view different result analysis.(Figure\ref{usecase2})
 \begin{figure}
 	\centering
-	\includegraphics[width=1\linewidth]{usecase.jpg}
+	\includegraphics[width=1\linewidth]{usecase2.png}
 	\caption{Use case diagram of admin}
 	\label{usecase1}
 \end{figure}
@@ -204,6 +204,7 @@ One of the primary advantages of the proposed system lies in its robust analytic
 	\item Diverse analysis options
 	\item Comprehensive student performance history
 	\item Streamlined documentation
+	\item Printing option for convenient physical copies
 \end{itemize}
 \section{Requirement Elicitation and Analysis}
 The analysis of requirements for the Result Analysis System commenced with a comprehensive gathering of information from various stakeholders, including students and Teachers. This initial phase aimed to collect all relevant data that would serve as the foundation for defining the system's requirements. The collected information underwent a thorough analysis to establish a precise and unambiguous understanding of the project's objectives, while also addressing any ambiguities or inconsistencies in the initial problem statement.
@@ -217,30 +218,28 @@ The following techniques were utilized:
 \end{itemize}
 \chapter{METHODOLOGY}
 \section{System Development}
-The development of the Result Analysis System was executed using PHP, a server-side scripting language known for its versatility and web development capabilities. The user interface was crafted using HTML, CSS, and JavaScript to create an interactive and user-friendly front end. PHP, coupled with the Laravel framework, provided the foundation for the back-end logic. The development environment was established using tools such as Visual Studio Code, and version control was managed via Git.
+The development of the Result Analysis System was executed using PHP, a server-side scripting language known for its versatility and web development capabilities. The user interface was crafted using HTML, CSS, and JavaScript to create an interactive and user-friendly front end. PHP provided the foundation for the back-end logic. The development environment was established using tools like Visual Studio Code.
 
 \section{Database Design and Data Integration}
 In our project, we recognized the importance of leveraging existing student data, which was already stored in the database of the college's Student Management System. This integration allowed us to build upon the foundation of pre-existing student details, eliminating the need to re-enter redundant data.To seamlessly integrate the Result Analysis System with the Student Management System's database, we extended the database schema to accommodate additional information related to courses and teachers.Admin of our project is responsible for entering course data including course name,course code,credit etc and teacher data include teacher name ,department into the database. By integrating with the existing Student Management System's database, we were able to build a seamless and comprehensive Result Analysis System while minimizing data duplication and maintaining data consistency across the college's information systems. This approach not only saved time and effort but also ensured that student, course, and teacher data remained accurate and synchronized.
 
-We introduced an additional database table specifically designed to capture and manage mark data.It includes fields such studID,courseID and ce,ese marks.By creating this separate table, we ensured that teacher-entered marks were appropriately organized, securely stored, and easily accessible for analysis and reporting.
+We introduced an additional database table specifically designed to capture and manage mark data.It includes fields such course{\_}id and stud{\_}id, ce, ese marks. By creating this separate table, we ensured that teacher-entered marks were appropriately organized, securely stored, and easily accessible for analysis and reporting.
 \section{User Feedback}
-User feedback was an integral part of our methodology. We actively sought input from users, including teachers and administrators, at various stages of development.feedback sessions were conducted to gather insights into system usability and functionality.This feedback guided the refinement of system features and the user interface.
+User feedback was an integral part of our methodology. We actively sought input from users, including teachers and administrators, at various stages of development. Feedback sessions were conducted to gather insights into system usability and functionality. This feedback guided the refinement of system features and the user interface.
 \section{Framework and Tool Selection}
 In the process of developing a web app, we rely on a range of essential tools.
 Such as:
 
 • \textbf{Visual Studio Code} : It is an advanced code editor that offers features like debugging, syntax highlighting, intelligent code completion, snippets, code refactoring, and integrated Git support.
+.
 
-• \textbf{Git \& GitHub} : git and GitHub are fundamental tools in the realm of version control systems, essential for tracking changes across collections of files. These technologies enable effortless collaboration among developers collaborating on source code, with a focus on optimizing speed, maintaining data integrity, and supporting distributed, non-linear development.
-
-• \textbf{phpMyAdmin} : phpMyAdmin is a web-based graphical interface used for managing MySQL and MariaDB databases. It simplifies database administration by providing a user-friendly interface accessible through web browsers. With phpMyAdmin, users can create, modify, and delete databases and tables, execute SQL queries, import and export data, and manage user privileges.
+• \textbf{phpMyAdmin} : phpMyAdmin is a web-based graphical interface used for managing MySQL. It simplifies database administration by providing a user-friendly interface accessible through web browsers. With phpMyAdmin, users can create, modify, and delete databases and tables, execute SQL queries, import and export data, and manage user privileges.
 
 
 \chapter{DESIGN and IMPLEMENTATION}
 \section{Architecture}
 \subsection{Data Flow Diagram}
-A Data Flow Diagram (DFD) is a graphical representation of the “flow” of data through
-an information system.\\\\
+A data-flow diagram is a way of representing a flow of data through a process or a system. 
 \begin{itemize}
 	\item Level 0 - Figure \ref{level_zero}
 	\item Level 1 of process 1 - Figure \ref{level_one}
@@ -275,7 +274,7 @@ an information system.\\\\
 \subsection{ER Diagram}
 An entity-relationship diagram is a data modeling technique that creates a graphical
 representation of the entities, and the relationships between entities, within an information
-system. Figure \ref{er} represent our ER diagram.
+system. Figure \ref{er} represents the ER diagram of the result analysis system.
 \begin{figure}
 	\centering
 	\includegraphics[width=1\linewidth]{er.png}
@@ -454,15 +453,15 @@ Objective: To confirm the effectiveness of the advanced search feature.\\
 Steps: Perform advanced searches using various criteria.\\
 Expected Result: Return of relevant and accurate search results.\\
 
-In the initial stage of the uploading process, the system inadvertently permitted the uploading of marks that exceeded the maximum allowable mark for a particular paper. This oversight had the potential to significantly distort the subsequent analysis. Recognizing this issue, we promptly addressed it by implementing a code modification. This modification now prevents the addition of marks that exceed the established maximum mark, ensuring the integrity and accuracy of the analysis process.That is when a user attempts to upload a mark above the maximum allowed mark, the system immediately provides a visual indication by highlighting the input box with a distinct red border (Figure\ref{testing}). This ensures that the marks stay within the specified limits and maintains data accuracy.
+In the initial stage of the uploading process, the system inadvertently permitted the uploading of marks that exceeded the maximum allowable mark for a particular paper. This oversight had the potential to significantly distort the subsequent analysis. Recognizing this issue, we promptly addressed it by implementing a code modification. This modification now prevents the addition of marks that exceed the established maximum mark, ensuring the integrity and accuracy of the analysis process. That is when a user attempts to upload a mark above the maximum allowed mark, the system immediately provides a visual indication by highlighting the input box with a distinct red border (Figure\ref{testing}). This ensures that the marks stay within the specified limits and maintains data accuracy.
 \begin{figure}
 	\centering
 	\includegraphics[width=1\linewidth]{testing.jpeg}
-	\caption{Mark uploading error}
+	\caption{Mark exceeds the maximum allowed limit}
 	\label{testing}
 \end{figure}
 \chapter{RESULTS AND DISCUSSION}
-The Result Analysis System is a comprehensive software solution designed to streamline and enhance the academic performance evaluation process within educational institutions. The automation of result analysis has not only reduced manual effort but also improved the quality of evaluations. With consistent and reliable results, educators can make data-informed decisions to enhance the learning experience.The system's ability to conduct various types of analyses, such as departmental top analysis and historical data retrieval, offers a deeper understanding of academic performance trends. This information is invaluable for academic planning and decision-making.
+The Result Analysis System is a comprehensive software solution designed to streamline and enhance the academic performance evaluation process within educational institutions. The automation of result analysis has not only reduced manual effort but also improved the quality of evaluations. With consistent and reliable results, educators can make data-informed decisions to enhance the learning experience. The system's ability to conduct various types of analyses, such as departmental top analysis, semester wise analysis etc. and historical data retrieval, offers a deeper understanding of academic performance trends. This information is invaluable for academic planning and decision-making.
 \section{Results}
 \subsection{Uploading result of students}
 \begin{figure}
@@ -473,22 +472,32 @@ The Result Analysis System is a comprehensive software solution designed to stre
 \end{figure}
 We have successfully implemented the capability to upload results for each student according to their papers in each semester (Figure \ref{upload}).
 
-\subsection{Different types of analysis}
+\subsection{Different types of analyses}
 We have conducted various types of analysis, including departmental top analysis and semester-wise analysis, student analysis, single subject analysis etc.
+\begin{enumerate}
+	\item Department Top - In this, users can specify the desired number of top students for each semester, as shown in Figure \ref{dept_top}, for each class. Additionally, we provide a printing option for generating hard copies of the results.
+	\item Student Analysis - In student analysis, we can retrieve the marks from multiple semesters of a student at once, and the overall result is obtained only when marks from all semesters are uploaded. Additionally, it offer bar diagram Figure \ref{graph} showing the percentage for each semester, facilitating communication between teachers and students. It also offer a printing option, which we believe is valuable for meetings with parents and other documentation purposes.
+	\item Single Subject Analysis - In this, we display students marks for a specific paper. Additionally, we provide a pie chart illustrating the distribution of grades, Figure \ref{pie}.
+	\item Semester Wise Analysis - In this, we display the complete results of all students in each semester. Additionally, we provide a separate table that shows the number of grades in each paper. This feature helps identify the number of students who pass and fail.
+	\item Advanced Search - In the advanced search feature, you have the flexibility to search for results in various ways. Semester is a mandatory input, and you can further refine your search using options such as name, registration number, program, year of admission, quota, status (pass or fail), and gender. This enables you to perform diverse searches.
+	
+	eg: finding all male students who passed in BSc Plant Science and are also sports quota students.
+	
+\end{enumerate}
 \begin{figure}
 	\centering
-	\includegraphics[width=1\linewidth]{dept_top.jpeg}
+	\includegraphics[width=1\linewidth]{top.jpeg}
 	\caption{Department top searching}
 	\label{dept_top}
 \end{figure}
-In department top section, we get the top number of students in each semesters (Figure \ref{dept_top}).
+
 \begin{figure}
 	\centering
 	\includegraphics[width=1\linewidth]{bar_diagram.png}
 	\caption{Bar diagram of a student based on semesters}
 	\label{graph}
 \end{figure}
-In student analaysis, we include bar diagrams. Thus teachers can understand the growth of students(Figure \ref{graph}).
+
 \begin{figure}
 	\centering
 	\includegraphics[width=0.5\linewidth]{pie1.png}
