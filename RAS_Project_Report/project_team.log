@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.6.3)  21 OCT 2023 23:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.6.3)  21 OCT 2023 23:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -815,7 +815,7 @@ Chapter 1.
 <usecase1.png, id=42, 501.875pt x 158.5925pt>
 File: usecase1.png Graphic file (type png)
 <use usecase1.png>
-Package pdftex.def Info: usecase1.png  used on input line 116.
+Package pdftex.def Info: usecase1.png  used on input line 115.
 (pdftex.def)             Requested size: 301.12732pt x 95.15622pt.
 [1
 
@@ -823,10 +823,10 @@ Package pdftex.def Info: usecase1.png  used on input line 116.
 <usecase2.jpg, id=48, 1084.05pt x 456.70625pt>
 File: usecase2.jpg Graphic file (type jpg)
 <use usecase2.jpg>
-Package pdftex.def Info: usecase2.jpg  used on input line 122.
+Package pdftex.def Info: usecase2.jpg  used on input line 121.
 (pdftex.def)             Requested size: 433.61232pt x 182.67926pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 132--134
+Underfull \hbox (badness 10000) in paragraph at lines 131--133
 
  []
 
@@ -837,19 +837,19 @@ We now make it that large for the rest of the document.
 This may cause the page layout to be inconsistent, however.
 
 [2 <./usecase1.png> <./usecase2.jpg>]
-Overfull \hbox (14.37042pt too wide) in paragraph at lines 144--147
+Overfull \hbox (14.37042pt too wide) in paragraph at lines 143--146
 []\T1/cmr/m/n/12 Operating Sys-tem: Re-sult Anal-y-sis Sys-tem is de-signed to 
 be platform-independent,
  []
 
 
-Overfull \hbox (0.60007pt too wide) in paragraph at lines 144--147
+Overfull \hbox (0.60007pt too wide) in paragraph at lines 143--146
 \T1/cmr/m/n/12 com-pat-i-ble with var-i-ous op-er-at-ing sys-tems such as Win-d
 ows, ma-cOS, and Linux. 
  []
 
 
-Overfull \hbox (5.44496pt too wide) in paragraph at lines 147--149
+Overfull \hbox (5.44496pt too wide) in paragraph at lines 146--148
 []\T1/cmr/m/n/12 Web Browser: The ap-pli-ca-tion runs on mod-ern web browsers l
 ike Google Chrome,
  []
@@ -857,14 +857,14 @@ ike Google Chrome,
 [3] [4]
 Chapter 2.
 
-Underfull \hbox (badness 10000) in paragraph at lines 195--196
+Underfull \hbox (badness 10000) in paragraph at lines 194--195
 
  []
 
 [5
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 212--213
+Underfull \hbox (badness 10000) in paragraph at lines 211--212
 
  []
 
@@ -877,22 +877,22 @@ Chapter 4.
 <level_zero.jpg, id=75, 623.32875pt x 151.56625pt>
 File: level_zero.jpg Graphic file (type jpg)
 <use level_zero.jpg>
-Package pdftex.def Info: level_zero.jpg  used on input line 268.
+Package pdftex.def Info: level_zero.jpg  used on input line 267.
 (pdftex.def)             Requested size: 249.32707pt x 60.62541pt.
 <level_admin.png, id=76, 673.51625pt x 289.08pt>
 File: level_admin.png Graphic file (type png)
 <use level_admin.png>
-Package pdftex.def Info: level_admin.png  used on input line 274.
+Package pdftex.def Info: level_admin.png  used on input line 273.
 (pdftex.def)             Requested size: 269.40172pt x 115.62994pt.
 <level_teacher1.png, id=77, 844.15375pt x 362.35374pt>
 File: level_teacher1.png Graphic file (type png)
 <use level_teacher1.png>
-Package pdftex.def Info: level_teacher1.png  used on input line 280.
+Package pdftex.def Info: level_teacher1.png  used on input line 279.
 (pdftex.def)             Requested size: 337.65552pt x 144.93892pt.
 <level_teacher1.1.png, id=78, 964.60374pt x 426.59375pt>
 File: level_teacher1.1.png Graphic file (type png)
 <use level_teacher1.1.png>
-Package pdftex.def Info: level_teacher1.1.png  used on input line 286.
+Package pdftex.def Info: level_teacher1.1.png  used on input line 285.
 (pdftex.def)             Requested size: 385.83466pt x 170.63446pt.
 [10
 
@@ -900,27 +900,27 @@ Package pdftex.def Info: level_teacher1.1.png  used on input line 286.
 <level_principal.png, id=83, 733.74126pt x 251.94125pt>
 File: level_principal.png Graphic file (type png)
 <use level_principal.png>
-Package pdftex.def Info: level_principal.png  used on input line 293.
+Package pdftex.def Info: level_principal.png  used on input line 292.
 (pdftex.def)             Requested size: 293.4913pt x 100.7747pt.
  [11 <./level_teacher1.png> <./level_teacher1.1.png> <./level_principal.png>] [
 12] [13]
 <er.png, id=97, 844.15375pt x 1065.9825pt>
 File: er.png Graphic file (type png)
 <use er.png>
-Package pdftex.def Info: er.png  used on input line 405.
+Package pdftex.def Info: er.png  used on input line 404.
 (pdftex.def)             Requested size: 433.62pt x 547.58015pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 400--408
+Underfull \hbox (badness 10000) in paragraph at lines 399--407
 
  []
 
 [14 <./er.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 412--414
+Underfull \hbox (badness 10000) in paragraph at lines 411--413
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 415--434
+Underfull \hbox (badness 10000) in paragraph at lines 414--433
 
  []
 
@@ -932,29 +932,29 @@ Chapter 5.
 <testing.jpeg, id=108, 493.845pt x 174.6525pt>
 File: testing.jpeg Graphic file (type jpg)
 <use testing.jpeg>
-Package pdftex.def Info: testing.jpeg  used on input line 460.
+Package pdftex.def Info: testing.jpeg  used on input line 459.
 (pdftex.def)             Requested size: 246.92189pt x 87.32603pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 470--474
+Underfull \hbox (badness 10000) in paragraph at lines 469--473
 
  []
 
 [17 <./testing.jpeg>]
-Underfull \hbox (badness 10000) in paragraph at lines 485--489
+Underfull \hbox (badness 10000) in paragraph at lines 484--488
 
  []
 
 [18]
 Chapter 6.
 
-Underfull \hbox (badness 10000) in paragraph at lines 501--502
+Underfull \hbox (badness 10000) in paragraph at lines 500--501
 
  []
 
 <upload1.jpeg, id=116, 656.4525pt x 612.2875pt>
 File: upload1.jpeg Graphic file (type jpg)
 <use upload1.jpeg>
-Package pdftex.def Info: upload1.jpeg  used on input line 505.
+Package pdftex.def Info: upload1.jpeg  used on input line 504.
 (pdftex.def)             Requested size: 328.22545pt x 306.143pt.
 [19
 
@@ -962,24 +962,24 @@ Package pdftex.def Info: upload1.jpeg  used on input line 505.
 <edit.png, id=120, 684.5575pt x 482.80376pt>
 File: edit.png Graphic file (type png)
 <use edit.png>
-Package pdftex.def Info: edit.png  used on input line 517.
+Package pdftex.def Info: edit.png  used on input line 516.
 (pdftex.def)             Requested size: 342.27791pt x 241.40129pt.
  [20 <./upload1.jpeg>]
 <top.jpeg, id=124, 626.34pt x 260.975pt>
 File: top.jpeg Graphic file (type jpg)
 <use top.jpeg>
-Package pdftex.def Info: top.jpeg  used on input line 528.
+Package pdftex.def Info: top.jpeg  used on input line 527.
 (pdftex.def)             Requested size: 313.16922pt x 130.48718pt.
 <bar_diagram.png, id=125, 1040.88875pt x 519.9425pt>
 File: bar_diagram.png Graphic file (type png)
 <use bar_diagram.png>
-Package pdftex.def Info: bar_diagram.png  used on input line 537.
+Package pdftex.def Info: bar_diagram.png  used on input line 536.
 (pdftex.def)             Requested size: 364.31653pt x 181.9826pt.
  [21 <./edit.png> <./top.jpeg>]
 <pie1.png, id=129, 433.62pt x 434.62375pt>
 File: pie1.png Graphic file (type png)
 <use pie1.png>
-Package pdftex.def Info: pie1.png  used on input line 545.
+Package pdftex.def Info: pie1.png  used on input line 544.
 (pdftex.def)             Requested size: 173.44492pt x 173.8464pt.
  [22 <./bar_diagram.png> <./pie1.png>] [23]
 Chapter 7.
@@ -1009,9 +1009,9 @@ File: lstlang1.sty 2019/09/10 1.8c listings language file
 File: lstlang2.sty 2019/09/10 1.8c listings language file
 )
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <10> not available
-(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 663.
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 662.
 LaTeX Font Info:    Trying to load font information for TS1+cmtt on input line 
-663.
+662.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmtt.fd
 File: ts1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
@@ -1022,7 +1022,7 @@ File: ts1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 Here is how much of TeX's memory you used:
  20743 strings out of 481239
  418737 string characters out of 5920378
- 1220345 words of memory out of 5000000
+ 1221360 words of memory out of 5000000
  35601 multiletter control sequences out of 15000+600000
  547758 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1039,7 +1039,7 @@ super/sfbx2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb><
 /usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fon
 ts/type1/public/cm-super/sfti1200.pfb></usr/share/texmf/fonts/type1/public/cm-s
 uper/sftt1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on project_team.pdf (44 pages, 2154343 bytes).
+Output written on project_team.pdf (44 pages, 2154364 bytes).
 PDF statistics:
  233 PDF objects out of 1000 (max. 8388607)
  149 compressed objects within 2 object streams
