@@ -1,0 +1,47 @@
+\begin{thebibliography}{1}
+
+\bibitem{head}
+Lynn Beighley and Michael Morrison.
+\newblock {\em Head First PHP \& MySQL: A Brain-Friendly Guide}.
+\newblock O'Reilly Media, 2008.
+
+\bibitem{tutorial1}
+Tim Berners-Lee.
+\newblock Html tutorial.
+\newblock \url{https://www.w3.org/TR/html401/}.
+
+\bibitem{java}
+David Flanagan and Gregor~M Novak.
+\newblock Java-script: The definitive guide, 1998.
+
+\bibitem{php}
+Steven Holzner.
+\newblock {\em PHP: The Complete Reference}.
+\newblock McGraw-Hill, Inc., 2007.
+
+\bibitem{se1}
+Pankaj Jalote.
+\newblock {\em An Integrated Approach to Software Engineering}.
+\newblock Springer Science \& Business Media, 2012.
+
+\bibitem{html}
+Julie~C Meloni.
+\newblock {\em Sams Teach Yourself HTML, CSS, and JavaScript All in One}.
+\newblock Pearson Education India, 2016.
+
+\bibitem{dbbook}
+Abraham Silberschatz, Henry~F. Korth, and S.~Sudarshan.
+\newblock {\em Database Systems Concepts}.
+\newblock McGraw-Hill Higher Education, 7th edition, 2019.
+
+\bibitem{se}
+Ian Sommerville.
+\newblock {\em Software Engineering}.
+\newblock Pearson, 10th edition, 2015.
+
+\bibitem{tutorial2}
+W3Schools.
+\newblock Php tutorial.
+\newblock \url{https://www.w3schools.com/php/}.
+
+\end{thebibliography}
